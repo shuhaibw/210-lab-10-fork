@@ -1,9 +1,12 @@
 #include <iostream>
+#include <string>
+
 using namespace std;
 
-int main() {
-
-    // add any code here, sort of a 'hello world plus' code block
+int main() 
+{
+    string question = " how are you today?";
+    cout << "Hello World," + question << endl;
 
     return 0;
 }
